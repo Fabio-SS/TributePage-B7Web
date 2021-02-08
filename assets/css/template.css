@@ -1,5 +1,5 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Sans-serif;
     margin: 0;
 }
 body{
@@ -12,6 +12,8 @@ header{
   background-color: #414141;
   box-shadow: 0px 0px 5px #000;
   margin-bottom: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 header .pag_title h1{
   font-size: 2.0rem;
@@ -30,6 +32,10 @@ figure figcaption{
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 13px;
+}
+figure h2{
+  display: flex;
+  justify-content: center;
 }
 section p{
   display: flex;
