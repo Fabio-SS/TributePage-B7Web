@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-  background-color: #e0dfdf;
+  background-color: #c9c9c9;
 }
 header{
   display: flex;
@@ -18,6 +18,7 @@ header{
 header .pag_title h1{
   font-size: 2.0rem;
   color: #FFF;
+  font-variant: small-caps;
 }
 body .img_perfil{
   display: block;
@@ -29,7 +30,7 @@ figure figcaption{
   display: flex;
   justify-content: center;
   font-style: italic;
-  font-weight: bold;
+  font-variant: small-caps;
   font-size: 15px;
   margin-bottom: 13px;
 }
@@ -37,20 +38,32 @@ figure h2{
   display: flex;
   justify-content: center;
 }
-section p{
+section .content{
   display: flex;
+  padding: 20px;
   justify-content: center;
+  font-variant: small-caps;
+  text-transform: lowercase;
   font-weight: bold;
-  font-size: 16px;
 }
-section .social{
-  display: flex;
+section .list{
+  display: block;
+  flex-direction: row;
+  margin-left: 50px;
+  
 }
-section a{
+section .p_italic{
+  font-style: italic;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+/* RODAPÉ */
+footer .social, a{
   text-decoration: none;
   color: #000;
 }
-section img{
+footer img{
   width: 40px;
   margin-left: 10px;
 }
