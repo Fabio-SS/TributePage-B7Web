@@ -27,8 +27,8 @@ body .img_perfil{
   border-radius: 5px;
 }
 figure figcaption{
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   font-style: italic;
   font-variant: small-caps;
   font-size: 15px;
@@ -37,25 +37,45 @@ figure figcaption{
 figure h2{
   display: flex;
   justify-content: center;
+  font-variant: small-caps;
 }
 section .content{
-  display: flex;
-  padding: 20px;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
   font-variant: small-caps;
   text-transform: lowercase;
   font-weight: bold;
 }
+/* TESTE DE BORDA
+section .border{
+  display: block;
+  justify-content: space-between;
+  
+  width: 630px;
+  height: 10px;
+  background-color: #FFF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/*                */
 section .list{
   display: block;
-  flex-direction: row;
+  text-align: start;
   margin-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 }
 section .p_italic{
   font-style: italic;
   text-transform: lowercase;
   font-variant: small-caps;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 /* RODAPÉ */
