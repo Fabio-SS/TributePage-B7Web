@@ -48,20 +48,6 @@ section .content{
   text-transform: lowercase;
   font-weight: bold;
 }
-/* TESTE DE BORDA
-section .border{
-  display: block;
-  justify-content: space-between;
-  
-  width: 630px;
-  height: 10px;
-  background-color: #FFF;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-
-/*                */
 section .list{
   display: block;
   text-align: start;
@@ -86,4 +72,22 @@ footer .social, a{
 footer img{
   width: 40px;
   margin-left: 10px;
+}
+footer .social{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: ivory;
+  padding: 10px;
+  background-color: #c9c9c9;
+  color: #fff;
+}
+footer a{
+  color: #000;
+}
+footer .border{
+  width: 100%;
+  margin-top: 20px;
+  height: 0.5px;
+  box-shadow: 0px 0px 5px #000;
 }
