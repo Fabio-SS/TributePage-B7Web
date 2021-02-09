@@ -49,21 +49,18 @@ section .content{
   text-transform: lowercase;
   font-weight: bold;
 }
+section ul li{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 section .list{
+  font-size: 14px;
   display: block;
   text-align: start;
   margin-left: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
-section .p_italic{
-  font-style: italic;
-  text-transform: lowercase;
-  font-variant: small-caps;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
 /* RODAPÉ */
 footer .social, a{
   text-decoration: none;
