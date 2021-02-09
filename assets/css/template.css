@@ -43,7 +43,8 @@ section .content{
   display: block;
   text-align: center;
   width: 100%;
-  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   font-variant: small-caps;
   text-transform: lowercase;
   font-weight: bold;
@@ -51,10 +52,9 @@ section .content{
 section .list{
   display: block;
   text-align: start;
-  margin-left: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  
+  margin-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 section .p_italic{
   font-style: italic;
@@ -71,14 +71,14 @@ footer .social, a{
 }
 footer img{
   width: 40px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 footer .social{
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: ivory;
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #c9c9c9;
   color: #fff;
 }
@@ -88,6 +88,6 @@ footer a{
 footer .border{
   width: 100%;
   margin-top: 20px;
-  height: 0.5px;
-  box-shadow: 0px 0px 5px #000;
+  height: 1px;
+  box-shadow: 0px 0px 1px #000;
 }
